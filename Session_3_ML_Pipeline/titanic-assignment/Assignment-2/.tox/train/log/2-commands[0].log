@@ -1,0 +1,31 @@
+name: train
+run_id: commands[0]
+env COMSPEC: C:\windows\system32\cmd.exe
+env NUMBER_OF_PROCESSORS: 8
+env PATHEXT: .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+env PROCESSOR_ARCHITECTURE: AMD64
+env PROGRAMDATA: C:\ProgramData
+env PROGRAMFILES: C:\Program Files
+env PROGRAMFILES(X86): C:\Program Files (x86)
+env SYSTEMDRIVE: C:
+env SYSTEMROOT: C:\windows
+env TEMP: C:\Users\Yogita\AppData\Local\Temp
+env TMP: C:\Users\Yogita\AppData\Local\Temp
+env USERPROFILE: C:\Users\Yogita
+env LANG: en_US.UTF-8
+env PATH: C:\Users\Yogita\Documents\test\Session_3_ML_Pipeline\titanic-assignment\Assignment-2\.tox\test_package\Scripts;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Git\cmd;C:\Users\Yogita\scoop\shims;C:\Users\Yogita\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Yogita\AppData\Local\Programs\Python\Python311\;C:\Users\Yogita\AppData\Local\Microsoft\WindowsApps;C:\Users\Yogita\AppData\Local\Programs\Microsoft VS Code\bin;
+env PIP_DISABLE_PIP_VERSION_CHECK: 1
+env PYTHONIOENCODING: utf-8
+env PYTHONPATH: .
+env PYTHONHASHSEED: 0
+env TOX_ENV_NAME: train
+env TOX_WORK_DIR: C:\Users\Yogita\Documents\test\Session_3_ML_Pipeline\titanic-assignment\Assignment-2\.tox
+env TOX_ENV_DIR: C:\Users\Yogita\Documents\test\Session_3_ML_Pipeline\titanic-assignment\Assignment-2\.tox\test_package
+env VIRTUAL_ENV: C:\Users\Yogita\Documents\test\Session_3_ML_Pipeline\titanic-assignment\Assignment-2\.tox\test_package
+env COLUMNS: 135
+env LINES: 15
+metadata pid: 17872
+cwd: C:\Users\Yogita\Documents\test\Session_3_ML_Pipeline\titanic-assignment\Assignment-2
+allow: C:\Users\Yogita\Documents\test\Session_3_ML_Pipeline\titanic-assignment\Assignment-2\.tox\test_package\Scripts\*
+cmd: python classification_model/train_pipeline.py
+exit_code: 0
